@@ -14,40 +14,75 @@
 </head>
 
 <body>
-    <div class="container text-center">
-        <h1>Snack Time!</h1>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
-            <div class="col">
-                <button class="btn btn-dark">
-                    <a href="./jsnack1/index.html">1</a>
-                </button>
+    <h1>Snack Time!</h1>
+    <div class="container">
+        <div id="my_machine" class="row flex-column rounded-3 mx-auto p-2">
+            <div class="col-5 my_logo rounded-3 text-white text-center align-content-center mx-auto ">
+                <img src="./img/logo.png" class="img-fluid">
             </div>
-            <div class="col">
-                <button class="btn btn-danger">
-                    <a href="./jsnack2/index.html">2</a>
-                </button>
+
+            <div class="col-12 my_window py-5 px-4">
+                <div class="row gap-2 justify-content-evenly ">
+
+                    <div class="col-7 my_main_window rounded-4 overflow-hidden border-5 border-black p-0 ">
+                        <img class="img-fluid" src="./img/snacks.png" alt="">
+                    </div>
+
+                    <div class="col-4 my_display px-2 d-flex flex-column border border-2 border-black py-2 ">
+
+                        <div class="col d-flex gap-1 align-items-center ">
+                            <input class="d-inline-block w-75" type="number">
+                            <button class="d-inline-block btn btn-light p-0">OK</button>
+                        </div>
+
+                        <div class="col d-flex gap-2 align-items-center border-1 border-white ">
+                            <div class="rounded-5 border bg-danger snack_btn p-2 border-2"></div>
+                            <a class="text-decoration-none text-white" href="./jsnack1/index.html">Snack 1</a>
+                        </div>
+
+                        <div class="col d-flex gap-2 align-items-center">
+                            <div class="rounded-5 border bg-danger snack_btn p-2 border-2"></div>
+                            <a class="text-decoration-none text-white" href="./jsnack2/index.html">Snack 2</a>
+                        </div>
+
+                        <div class="col d-flex gap-2 align-items-center">
+                            <div class="rounded-5 border bg-danger snack_btn p-2 border-2"></div>
+                            <a class="text-decoration-none text-white" href="./jsnack3/index.html">Snack 3</a>
+                        </div>
+
+                        <div class="col d-flex gap-2 align-items-center">
+                            <div class="rounded-5 border bg-danger snack_btn p-2 border-2"></div>
+                            <a class="text-decoration-none text-white" href="./jsnack4/index.html">Snack 4</a>
+                        </div>
+
+                        <div class="col d-flex gap-2 align-items-center">
+                            <div class="rounded-5 border bg-danger snack_btn p-2 border-2"></div>
+                            <a class="text-decoration-none text-white" href="./jsnack5/index.html">Snack 5</a>
+                        </div>
+
+                        <div class="col d-flex gap-2 align-items-center">
+                            <div class="rounded-5 border bg-danger snack_btn p-2 border-2"></div>
+                            <a class="text-decoration-none text-white" href="./jsnack6/index.html">Snack 6</a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <button class="btn btn-primary">
-                    <a href="./jsnack3/index.html">3</a>
-                </button>
+
+            <div id="user-choice" class="user-choice bg-inf row align-items-center ps-5 mb-4">
+                <div class="col-6 bg-danger p-3 bg-black border">
+                    <div class="row flex-column">
+                        <div class="col-12 bg-danger text-center snack_exit">PUSH</div>
+                        <div class="col-12 bg-primary white_line bg-white "></div>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <button class="btn btn-warning">
-                    <a href="./jsnack4/index.html">4</a>
-                </button>
-            </div>
-            <div class="col">
-                <button class="btn btn-info">
-                    <a href="./jsnack5/index.html">5</a>
-                </button>
-            </div>
-            <div class="col">
-                <button class="btn btn-secondary">
-                    <a href="./jsnack6/index.html">6</a>
-                </button>
-            </div>
+
         </div>
+        <div class="foot mx-auto">
+        </div>
+
+
     </div>
 
 

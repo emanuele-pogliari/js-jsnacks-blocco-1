@@ -1,5 +1,50 @@
-.col {
-    border: 1px solid;
+@font-face {
+    font-family: 'DisplayFont';
+    src: url(../fonts/display/CalculatorLcdsRegular-R5ZM.ttf);
 }
 
-/* test */
+
+#my_machine {
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 3px 4px 3px 4px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.my_logo {
+    height: 100px;
+
+}
+
+#user-choice {
+    height: 100px;
+}
+
+.foot {
+    width: 350px;
+    height: 20px;
+    background-color: black;
+}
+
+.white_line {
+    height: 10px;
+
+}
+
+.snack_exit {
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+input {
+    background-color: greenyellow;
+    color: rgb(41, 37, 37);
+    font-family: 'DisplayFont';
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
