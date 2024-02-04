@@ -3,11 +3,9 @@
     src: url(../fonts/display/CalculatorLcdsRegular-R5ZM.ttf);
 }
 
-body {
-    /* background-image: url(/img/room6.jpg); */
 
-    background-position: center;
-    background-size: cover;
+
+body {
     background-color: rgb(223, 205, 205);
 }
 
