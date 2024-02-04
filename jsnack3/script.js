@@ -7,4 +7,4 @@ for (let i = 0; i < 6; i++) {
         array.push(a);
     }
 }
-console.log(array);
+document.querySelector("#result").innerHTML = `I numeri dispari sono ${array}`;

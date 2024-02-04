@@ -9,6 +9,5 @@ for (i = 1; i <= 10; i++) {
 
 
 media = sum / (i - 1);
-console.log(sum);
-console.log(i);
-document.querySelector("#snack6").innerHTML = media;
+document.querySelector("#result").innerHTML += `La somma dei numeri da 1 a 10 e' ${sum} <br>`;
+document.querySelector("#result").innerHTML += `La somma dei numeri da 1 a 10 e' ${media}`;

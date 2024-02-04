@@ -5,4 +5,5 @@ for (let i = 0; i < 10; i++) {
     a = Number(prompt("inserisci numero: "));
     sum += a;
 }
-console.log(sum);
+
+document.querySelector("#result").innerHTML = `La somma dei numeri e' ${sum}`;

@@ -8,4 +8,4 @@ let sum = 0;;
 for (let i = 0; i < a.length; i++) {
     sum += +a[i];
 }
-console.log(sum);
+document.querySelector("#result").innerHTML = `La somma dei numeri del numero ${a} e' ${sum}`;
