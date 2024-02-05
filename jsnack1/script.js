@@ -1,5 +1,5 @@
-// let parola1 = prompt("Inserisci prima parola");
-// let parola2 = prompt("Inserisci seconda parola");
+let parola1 = prompt("Inserisci prima parola");
+let parola2 = prompt("Inserisci seconda parola");
 
 let result = document.querySelector("#result");
 

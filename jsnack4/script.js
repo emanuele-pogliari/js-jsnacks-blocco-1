@@ -16,4 +16,4 @@ for (let i = 0; i < numLength; i++) {
     num = Math.floor(num / 10);
 }
 
-document.querySelector("#result").innerHTML = `La somma dei numeri del numero ${savedNum} e' ${sum}`; 
+document.querySelector("#result").innerHTML = `La somma dei numeri di ${savedNum} e' ${sum}`; 
