@@ -3,8 +3,13 @@ body {
 }
 
 @font-face {
-    font-family: 'CalculatorLCD';
-    src: url(../../fonts/CalculatorLcdsRegular-R5ZM.ttf);
+    font-family: 'LCD';
+    src: url(../../fonts/LCD.ttf)
+}
+
+@font-face {
+    font-family: 'Calculator';
+    src: url(../../fonts/Calculator.ttf);
 }
 
 h1 {
@@ -38,8 +43,8 @@ h1 {
     border: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
     border-radius: 5px;
-    font-size: 30px;
-    font-family: 'CalculatorLCD';
+    font-size: 35px;
+    font-family: 'Calculator', sans-serif;
     overflow: auto;
 }
 
